@@ -14,7 +14,7 @@ livestock_by_barn
 livestock_by_barn.each do |color, stocks| 
   #this each loop is used to access the color keys that have the value of an array of hashes of animals and there corresponding barn preferences. 
 
-  # puts "the #{color} barn has:"
+  puts "the #{color} barn has:"
   # puts stocks.map{|stock| stock[:animal]} 
   # uncomment lines 17 and 18 for easier visualization 
 
